@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { getCurrentUser } from '@/lib/session'
-import { redirect } from 'next/navigation'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })

@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import { getCurrentUser } from '@/lib/session'
 import Link from 'next/link'
 
 export default async function Page() {
