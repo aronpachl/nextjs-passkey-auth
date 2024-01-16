@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default async function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-4 p-24">
+    <main className="flex flex-col items-center justify-center gap-4 p-24">
       <h1>This is the home page</h1>
       <p className={'text-xs'}>
         This page is not secured! Login to access{' '}
